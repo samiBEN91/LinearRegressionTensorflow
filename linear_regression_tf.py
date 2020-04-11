@@ -98,3 +98,5 @@ with tf.Session() as sess:
 # Calculating the predictions 
 predictions = weight * x + bias 
 print("Training cost =", training_cost, "Weight =", weight, "bias =", bias, '\n')
+
+#end
